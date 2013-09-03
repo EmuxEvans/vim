@@ -35,7 +35,7 @@ $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == comment.file-description == start ==
 /**
  * @file |FILENAME|
- * @brief This file implements the <CURSOR> interface
+ * @brief <CURSOR> 
  * @author |AUTHOR|, |EMAIL|
  * @version 1.0
  * @date |DATE| |TIME|
@@ -126,7 +126,7 @@ $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == comment.file-description-header == start ==
 /**
  * @file |FILENAME|
- * @brief This file is the interface to support <CURSOR>
+ * @brief <CURSOR>
  * @author |AUTHOR|, |EMAIL|
  * @version 1.0
  * @date |DATE| |TIME|

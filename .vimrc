@@ -158,17 +158,11 @@ if has("gui_running")
 	endif
 	"let psc_style='cool'
 	if v:version > 601 
-		"colorscheme ps_color
-		"colorscheme default
-		"colorscheme elflord
-		colorscheme jellybeans
+		colorscheme molokai
 	endif
 else
 	if v:version > 601 
-		"set background=dark
-		"colorscheme default
-		"colorscheme elflord
-		colorscheme jellybeans
+		colorscheme molokai
 	endif
 endif
 
@@ -1208,7 +1202,6 @@ let g:clang_close_preview=1
 if version >= 703
   set conceallevel=2
   set concealcursor=vin
-  let g:clang_conceal_snippets=1
 endif
 
 "disable-preview-scratch-window
