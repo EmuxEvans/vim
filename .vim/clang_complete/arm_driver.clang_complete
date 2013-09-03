@@ -1,0 +1,17 @@
+-D__KERNEL__
+-D__LINUX_ARM_ARCH__=5
+-DARCH=arm
+-DCROSS_COMPILER=arm-linux-
+-nostdinc
+
+-include /szwinet/kernel/linux-2.6.24/include/linux/autoconf.h
+-I/szwinet/buildroot/build_arm/staging_dir/lib/gcc/arm-linux-uclibc/4.2.1/include
+-I/szwinet/kernel/linux-2.6.24/include
+-I/szwinet/kernel/linux-2.6.24/arch/arm/mach-at91
+-DMODULE
+-DKBUILD_STR(s)=#s
+-DKBUILD_BASENAME=KBUILD_STR(main)
+-DKBUILD_MODNAME=KBUILD_STR(main)
+-integrated-as
+-ccc-host-triple arm-linux-uclibc
+-mfloat-abi=soft
