@@ -67,7 +67,7 @@ function! CppUTest_UnittestNew()
     return
   endif
 
-  let type = input('Select a type first TDD unittest '.supportTypes.': ')
+  let type = input('Select a type for first TDD unittest '.supportTypes.': ')
   if type == ''
     let type = g:CppUTestDefaultType
   elseif type != 'c' && type != 'cpp'
