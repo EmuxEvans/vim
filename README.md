@@ -5,5 +5,7 @@ vim
 My vim configuration and plugins, 
 it includes my own vim plugin called 'CppUTest.vim' for CppUTest TDD suit.
 
+You can develop linux driver for ARM/MIPS by clang_complete which accurately completing kernel API.
+
 Please access https://github.com/EmuxEvans/vim/wiki for more information.
 
