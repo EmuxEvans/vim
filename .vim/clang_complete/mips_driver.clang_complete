@@ -1,0 +1,16 @@
+-D__KERNEL__
+-DARCH=mips
+-DCROSS_COMPILER=mips-openwrt-linux-
+-nostdinc
+-include /Volumes/openwrt/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/linux-ar71xx_generic/linux-3.8.2/include/generated/autoconf.h
+-I/Volumes/openwrt/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/linux-ar71xx_generic/linux-3.8.2/include
+-I/Volumes/openwrt/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/linux-ar71xx_generic/linux-3.8.2/user_headers/include
+-I/Volumes/openwrt/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/linux-ar71xx_generic/linux-3.8.2/arch/mips/ath79
+-I/Volumes/openwrt/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/linux-ar71xx_generic/linux-3.8.2/arch/mips/include
+-DMODULE
+-DKBUILD_STR(s)=#s
+-DKBUILD_BASENAME=KBUILD_STR(main)
+-DKBUILD_MODNAME=KBUILD_STR(main)
+-integrated-as
+-ccc-host-triple mips-openwrt-linux
+-mfloat-abi=soft
