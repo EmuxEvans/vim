@@ -6,7 +6,7 @@
 #          ./initAutoTools.sh clean #Clean the generated files
 # @author emux, emuxevans@126.com
 # @version 1.0.0
-# @date 03/26/2013 00:44:21, 12th Tuesday
+# @date 03/26/2013 20:44:21, 12th Tuesday
 # @copyright Copyright (c) www.emuxevans.com All rights reserved.
 # @reference
 #
