@@ -1003,7 +1003,7 @@ nnoremap <silent> sj     :FufBuffer<CR>
 nnoremap <silent> sk     :FufFileWithCurrentBufferDir<CR>
 nnoremap <silent> sK     :FufFileWithFullCwd<CR>
 nnoremap <silent> s<C-k> :FufFile<CR>
-nnoremap <silent> sl     :FufCoverageFileChange<CR>
+nnoremap <silent> sl     :FufCoverageFile<CR>
 nnoremap <silent> sL     :FufCoverageFileChange<CR>
 nnoremap <silent> s<C-l> :FufCoverageFileRegister<CR>
 nnoremap <silent> sd     :FufDirWithCurrentBufferDir<CR>
